@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="left">
+      <img src="immo.jpg" alt="3D illustration" />
+    </div>
+    <div class="right">
+      <div class="form-wrapper">
+        <h2>Log In</h2>
+        <p>Enter your email and password to login our dashboard.</p>
+        <div id="error" class="error"></div>
+        <form id="loginForm">
+          <label>Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+
+          <label>Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required />
+            <div class="remember-forgot">
+  <label class="remember">
+    <input type="checkbox" id="remember" />
+    <span>Remember Me</span>
+</div>
+
+          <button type="submit" class="btn">Sign In</button>
+
+          <div class="links">
+            <p>Don’t have an account? <a href="#">Sign Up</a></p>
+            <a href="#">Forgot Password?</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-auth-compat.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
