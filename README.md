@@ -18,6 +18,3 @@ A clean, modern, and responsive **Login Page** built using **HTML, CSS, and Java
 - JavaScript (Vanilla)
 - Firebase Auth (CDN-based)
 - Google Fonts – [Inter](https://fonts.google.com/specimen/Inter)
-
-## 📁 Folder Structure
-
