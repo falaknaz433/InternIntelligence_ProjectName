@@ -1,6 +1,6 @@
 # InternIntelligence_ProjectName
 
-# 🔐 Modern Login Page – TYLET
+# 🔐 Modern Login Page 
 A clean, modern, and responsive **Login Page** built using **HTML, CSS, and JavaScript**, with **Firebase Authentication** integration.
 ## ✨ Features
 - 📧 Email and Password fields
